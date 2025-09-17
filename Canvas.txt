@@ -1,0 +1,11 @@
+In CanvasScreen.kt:
+- Implement a full-screen Box with a Compose Canvas inside.
+- Add gesture handling:
+  - One-finger drag = freehand drawing (store points continuously).
+  - Two-finger pinch = zoom.
+  - Two-finger drag = pan.
+- Store strokes in CanvasState as Shape.PolyStroke(points).
+- Render strokes on the canvas using Path.
+- Add a light gray background grid:
+  - Grid spacing = 5mm (convert using device dpi).
+  - Cache the grid drawing into an offscreen Bitmap for performance.
