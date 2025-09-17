@@ -1,6 +1,3 @@
-git add .
-git commit -m "Initial commit: SnappyRulerSet project"package com.example.snappyrulerset.ui.theme
-
 import androidx.compose.ui.graphics.Color
 
 val Purple80 = Color(0xFFD0BCFF)
